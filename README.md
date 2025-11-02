@@ -116,14 +116,10 @@ Apache License 2.0
 
 Test locally:
 ```
-export OKTA_DOMAIN=integrator-2713708.okta.com
-export OKTA_CLIENT_ID=0oax14jw169X1J9jl697
+export OKTA_DOMAIN=....
+export OKTA_CLIENT_ID=...
 export OKTA_PRIVATE_KEY_PATH=./key.pem
 export OKTA_GROUP_PATTERN=GroupForTrino_(.*)
-
-
-OKTA_DOMAIN=integrator-2713708.okta.com OKTA_CLIENT_ID=0oax14jw169X1J9jl697 OKTA_PRIVATE_KEY_PATH=./key.pem OKTA_GROUP_PATTERN=GroupForTrino_(.*) ./gradlew test --tests OktaGroupProviderIntegrationTest
-
 ```
 
 
